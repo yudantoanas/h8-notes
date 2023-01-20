@@ -198,6 +198,16 @@ while (condition) {
 
 ![](https://media4.giphy.com/media/uyoXx0qpUWfQs/giphy.gif?cid=ecf05e47ma0utvundogidenxni2ddzpv84rv5m1r6z8shzdo&rid=giphy.gif&ct=g)
 
+Lecture Materials
+
+- [Algoritma & Pseudocode](https://docs.google.com/document/d/10VEx7QfFPNtS_089m8Pd-BFteiB55-Uj/edit?usp=sharing&ouid=101901749413551476666&rtpof=true&sd=true)
+- [Algorithm & Pseudocode: Iteration](https://docs.google.com/document/d/1-DwunE1r_3mDnRuZ8sOtIykZnQ_sSw1Z/edit?usp=sharing&ouid=101901749413551476666&rtpof=true&sd=true)
+- [Conditional & Primitive Data Types](https://docs.google.com/document/d/1vUi2rczwUN1SDsnhZfAKygjobMP2yWjIBKPr2e8Ylsw/edit?usp=sharing)
+- [Conditional Switch-Case](https://docs.google.com/document/d/1F4_sZzvRZdmEyp_g-m1Z2Qfx7uHBR-ui/edit?usp=sharing&ouid=101901749413551476666&rtpof=true&sd=true)
+- [String in JS](https://docs.google.com/document/d/1pM1CP-ZbkXqdQlQwB90G-IJNbeOc4Uh9/edit?usp=sharing&ouid=101901749413551476666&rtpof=true&sd=true)
+- [ES6](https://docs.google.com/document/d/1qwzD4nF843dfLiF0GFiGQ0_3I6dBL2V_/edit?usp=sharing&ouid=101901749413551476666&rtpof=true&sd=true)
+- [Built-in Function: Math](https://docs.google.com/document/d/1TzWrC4zWh4zmt6wUz98_96woUKEikU1Z/edit?usp=sharing&ouid=101901749413551476666&rtpof=true&sd=true)
+
 Reading Materials
 
 - [What is an algorithm and why should you care?](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms)
