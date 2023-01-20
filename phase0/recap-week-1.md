@@ -110,8 +110,9 @@ switch (expression) {
     [break;]]
 }
 ```
+- `default` dalam switch case adalah opsional, seperti halnya `else` dalam if-else, `default` akan berjalan jika **tidak** ada case yang sesuai dengan ekspresi yang diberikan
 
-- `break` dalam switch case adalah opsional, namun perlu diingat jika dalam sebuah switch case tidak dikasih break, maka statement2 dari case lain dibawahnya akan tereksekusi juga.
+- `break` dalam switch case adalah opsional, namun perlu diingat jika dalam sebuah switch case tidak dikasih break, maka statement-statement dari case lain dibawahnya akan tereksekusi juga.
 
 - Nested Conditional -> ada if-else didalam sebuah if-else
 
