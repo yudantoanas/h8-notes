@@ -6,7 +6,7 @@
   - [Multi-dimentional Array](#multi-dimentional-array)
 - [References for Self-Taught](#references-for-self-taught)
 
-![](https://media1.giphy.com/media/lzz3B3xLZluuY/giphy.gif?cid=ecf05e472v17qjebjeg8yz8t25ux5rp6p7n5xmnh8hhy065w&rid=giphy.gif&ct=g)
+![](https://media2.giphy.com/media/13HBDT4QSTpveU/giphy.gif?cid=ecf05e472bbvvvot2l5wgkrxliz9wppl5w285tmrfc05ynmx&rid=giphy.gif&ct=g)
 
 # Functions
 
