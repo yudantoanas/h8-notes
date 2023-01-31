@@ -89,6 +89,9 @@ Contoh array multi-dimensi
 ```js
 // create multi-dimentional array
 let arrA = [[dataA1, dataA2], [dataB1, dataB2], ..., [dataN1, dataN2]]
+
+// accessing element in multi-dimentional array
+arrA[0][1] // data ini index 0 and 1 -> dataA2
 ```
 
 # References for Self-Taught
