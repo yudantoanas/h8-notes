@@ -81,6 +81,7 @@ arrA.length
 ## Multi-dimentional Array
 
 - Sebuah array yang terdiri dari array (nested array)
+
 ![](https://media0.giphy.com/media/lXu72d4iKwqek/giphy.gif?cid=ecf05e47cqktbb7eabmkvuggvlflafdl59ubb4zdhcilz2bj&rid=giphy.gif&ct=g)
 
 Contoh array multi-dimensi
