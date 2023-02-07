@@ -47,7 +47,7 @@ let person2 = {
 let objects = [person1, person2]
 
 // get key from one of the object in array
-objects[0].name
+objects[0].name // James
 ```
 
 # References for Self-Taught
