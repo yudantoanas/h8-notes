@@ -1,110 +1,63 @@
-# Recap Week 2
+# Recap Week 3
 
-- [Functions](#functions)
-  - [Modular Functions](#modular-functions)
-- [Array](#array)
-  - [Multi-dimentional Array](#multi-dimentional-array)
+- [Object](#object-literal)
+- [Object Array](#object-array)
 - [References for Self-Taught](#references-for-self-taught)
 
-![](https://media2.giphy.com/media/13HBDT4QSTpveU/giphy.gif?cid=ecf05e472bbvvvot2l5wgkrxliz9wppl5w285tmrfc05ynmx&rid=giphy.gif&ct=g)
+![](https://media4.giphy.com/media/wpoLqr5FT1sY0/giphy.gif?cid=ecf05e47hbnc3m5rdrk38ce4wuzg8y6otyy9j5mxr7vyivu1&rid=giphy.gif&ct=g)
 
-# Functions
+# Object Literal
 
-- Functions adalah sebuah code block yang disusun untuk menjalankan suatu proses.
-- Setelah menyelesaikan suatu proses, functions dapat mengembalikan `value` dengan menggunakan syntax `return`.
-
-Bentuk functions
+- Setiap object memiliki key/property/attribute yang berbentuk `key:value`
+- Nama sebuah key biasanya hanya 1 kata. Namun jika kita ingin membuat key yang terdiri dari 2 kata atau lebih, kita bisa mengggunakan `" "`. Contoh `"angka bagus": 10`.
+- Setiap key pada object bersifat unik.
+- Contoh:
 
 ```js
-// Functions dengan return
-function nameFunc(param1, param2, ..., paramN) {
-  /* Isi dari function berupa tindakan */
-  // ...
-  return [expression];
+// define object
+let object = {
+  prop1: "Hello"
+  prop2: "World"
+  "user age": 15
 }
 
-// Functions dengan tanpa return
-function nameFunc2(param1, param2, ..., paramN) {
-  /* Isi dari function berupa tindakan */
-  // ...
-}
+// get key from object
+object.prop1
+object["user age"]
+
+// update value of a key
+object.prop1 = "Test"
 ```
 
-## Modular Functions
+# Object Array
 
-- Kita dapat membuat sebuah program yang terdiri dari beberapa functions, dimana setiap functions tersebut dapat saling terhubung.
+- Array yang terdiri dari kumpulan object
 
-Contoh modular function:
+![](https://media3.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif?cid=ecf05e47sr3vwmvjp1lqn8i27gjowoilvkw2rtbewfojv682&rid=giphy.gif&ct=g)
+
+- Contoh:
 
 ```js
-function funcA(param1, param2, ..., paramN) {
-  /* Isi dari function berupa tindakan */
-  // ...
-  return [expression];
+let person1 = {
+  name: "James"
 }
-
-function funcB(param1, param2, ..., paramN) {
-  // funcB memanggil funcA untuk dapat menyelesaikan proses
-  // ...
-  return [expression]
+let person2 = {
+  name: "Bond"
 }
+let objects = [person1, person2]
 
-console.log(funcB)
-```
-
-# Array
-
-- Sebuah tipe data yang terstruktur, yang berguna untuk menyimpan kumpulan data yang sejenis. Contoh: array of strings, array of numbers, array of objects, etc.
-- Kita dapat memanipulasi isi dari array dengan menggunakan beberapa built-in functions, seperti `push`, `pop`, `unshift`, `shift`, dsb.
-
-Contoh array
-
-```js
-// create an array
-let arrA = [data1, data2, ..., dataN]
-
-// accessing one element/item in array
-arrA[0] // data in index 0
-arrA[3] // data in index 3
-arrA[N] // data in index N
-
-// push new value to array
-arrA.push(value)
-
-// pop value from array
-arrA.pop(value)
-
-// get length of an array
-arrA.length
-```
-
-## Multi-dimentional Array
-
-- Sebuah array yang terdiri dari array (nested array)
-
-![](https://media0.giphy.com/media/lXu72d4iKwqek/giphy.gif?cid=ecf05e47cqktbb7eabmkvuggvlflafdl59ubb4zdhcilz2bj&rid=giphy.gif&ct=g)
-
-Contoh array multi-dimensi
-
-```js
-// create multi-dimentional array
-let arrA = [[dataA1, dataA2], [dataB1, dataB2], ..., [dataN1, dataN2]]
-
-// accessing element in multi-dimentional array
-arrA[0][1] // data ini index 0 and 1 -> dataA2
+// get key from one of the object in array
+objects[0].name
 ```
 
 # References for Self-Taught
 
-![](https://media2.giphy.com/media/j1Xyt3DHfJcmk/200.webp?cid=ecf05e47212x7wjpd6cexz5ccj1hmfvpym003js8cwknf6vl&rid=200.webp&ct=g)
+![](https://media2.giphy.com/media/3o7abGQa0aRJUurpII/giphy.gif?cid=790b76115496294f1dfb6cb86fa8f73cbc58592664d0284a&rid=giphy.gif&ct=g)
 
-- [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-- [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-- [Default Parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
-- [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [Multi-dimentional Array](https://www.geeksforgeeks.org/javascript-multidimensional-array/)
+- [Objects](https://www.w3schools.com/js/js_objects.asp)
+- [Array of Objects](https://www.freecodecamp.org/news/javascript-array-of-objects-tutorial-how-to-create-update-and-loop-through-objects-using-js-array-methods/)
 
 ## Video References
 
-- [Array](https://drive.google.com/drive/folders/1t_7rAu9Nt4ZJBJjXftglIZJQZET2D-vi)
-- [Functions](https://www.youtube.com/watch?v=gigtS_5KOqo)
+- [An Encounter with JavaScript Objects](https://youtu.be/napDjGFjHR0)
+- [Object](https://drive.google.com/drive/folders/1BvYvYJeSwBoNMexPbp7jDCYzRchz0kEp)
