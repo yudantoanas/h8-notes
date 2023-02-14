@@ -1,13 +1,38 @@
 # Recap Materi Week 1
 
-## Contents
-
+- [Supplements](#supplements)
 - [OOP](#oop)
 - [OOP Characteristics](#oop-characteristics)
 - [OOP Relationship](#oop-relationship)
 - [Factory Method](#factory-method)
 - [MVC](#mvc)
 - [Callback](#callback)
+
+![](https://media.tenor.com/Xw9NRtyNMb4AAAAM/simpson.gif)
+
+# Supplements
+
+## process.argv
+
+<https://www.geeksforgeeks.org/node-js-process-argv-property/>
+
+## arrow function
+
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions>
+
+## built-in function
+
+<https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm>
+
+## destructuring
+
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment>
+
+## Module Exports
+
+```js
+module.exports = /* functions, variables, class, etc that you want to exports */
+```
 
 # OOP
 
