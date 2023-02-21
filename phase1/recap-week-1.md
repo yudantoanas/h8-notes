@@ -143,8 +143,13 @@ Sebuah pattern dalam programming yang menerapkan prinsip "Separation of Concerns
 
 Secara sederhana, Callback adalah sebuah function yang dapat digunakan oleh function lain sebagai argument/parameter, seperti variable.
 
+## Beware of Callback Hell
+
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--c0aEZX7m--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b8euo2n7twvgh3dbuatd.jpeg)
+
 ## Reference
 
+- [Panduan Callback](https://medium.com/coderupa/panduan-komplit-asynchronous-programming-pada-javascript-part-2-callback-3a717df6cfdf)
 - [Understanding Callback](https://dev.to/nena/understanding-callbacks-2m57)
 - [Asynchronous Javascript](https://nodejs.dev/en/learn/javascript-asynchronous-programming-and-callbacks/)
 - [Simple Guide to Asynchronous - Difference between Synchronous & Asynchronous](https://dev.to/koladev/a-simple-guide-to-asynchronous-javascript-callbacks-promises-async-await-4m03#1-synchronous-vs-asynchronous)
